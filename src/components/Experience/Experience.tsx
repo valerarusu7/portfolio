@@ -14,6 +14,10 @@ import JAVA from "../../assets/skills/java.png";
 import PYTHON from "../../assets/skills/python.png";
 import DJANGO from "../../assets/skills/django.png";
 import MONGODB from "../../assets/skills/mongodb.png";
+import FIREBASE from "../../assets/skills/firebase.png";
+import GOOGLE_CLOUD from "../../assets/skills/google-cloud.webp";
+import AZURE from "../../assets/skills/azure.png";
+import AWS from "../../assets/skills/aws.png";
 
 function Experience() {
   return (
@@ -107,27 +111,6 @@ function Experience() {
               <img src={NODEJS} alt="NODEJS" className="experience__icon" />
               <div>
                 <h4>Node JS</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <img src={MONGODB} alt="MONGODB" className="experience__icon" />
-              <div>
-                <h4>MongoDB</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <img src={MYSQL} alt="MYSQL" className="experience__icon" />
-              <div>
-                <h4>MySQL</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <img src={PYTHON} alt="PYTHON" className="experience__icon" />
-              <div>
-                <h4>Python</h4>
                 <small className="text-light">Very Experienced</small>
               </div>
             </article>
@@ -139,10 +122,59 @@ function Experience() {
               </div>
             </article>
             <article className="experience__details">
+              <img src={MYSQL} alt="MYSQL" className="experience__icon" />
+              <div>
+                <h4>MySQL</h4>
+                <small className="text-light">Very Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <img src={PYTHON} alt="PYTHON" className="experience__icon" />
+              <div>
+                <h4>Python</h4>
+                <small className="text-light">Very Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <img src={MONGODB} alt="MONGODB" className="experience__icon" />
+              <div>
+                <h4>MongoDB</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
               <img src={JAVA} alt="JAVA" className="experience__icon" />
               <div>
                 <h4>Java</h4>
                 <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <img src={FIREBASE} alt="FIREBASE" className="experience__icon" />
+              <div>
+                <h4>Firebase</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <img src={GOOGLE_CLOUD} alt="GOOGLE_CLOUD" className="experience__icon" />
+              <div>
+                <h4>Google Cloud</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <img src={AZURE} alt="AZURE" className="experience__icon" />
+              <div>
+                <h4>Azure</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <img src={AWS} alt="AWS" className="experience__icon" />
+              <div>
+                <h4>AWS</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>
