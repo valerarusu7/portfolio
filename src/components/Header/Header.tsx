@@ -2,8 +2,12 @@ import "./header.css";
 import HeaderButtons from "./HeaderButtons";
 import ME from "../../assets/my-photo.png";
 import HeaderSocials from "./HeaderSocials";
+import { setActive } from "../../store/reducers/navigationSlice";
+import { useAppDispatch } from "../../store/hooks";
 
 function Header() {
+  const dispatch = useAppDispatch();
+
   return (
     <header>
       <div className="container header__container">
@@ -17,7 +21,7 @@ function Header() {
           <img src={ME} alt="me" />
         </div>
 
-        <a href="#contact" className="scroll__down">
+        <a href="#contact" onClick={() => dispatch(setActive("#contact"))} className="scroll__down">
           Scroll Down
         </a>
       </div>

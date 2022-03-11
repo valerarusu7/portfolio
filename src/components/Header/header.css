@@ -47,6 +47,11 @@ header {
     height: 100vh;
   }
 
+  .me {
+    width: 282px;
+    height: 282px;
+  }
+
   .header__socials .scroll__down {
     display: none;
   }

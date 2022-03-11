@@ -63,7 +63,7 @@ function Portfolio() {
           </div>
           <h3>Drivepilot</h3>
           <div className="portfolio__item-cta">
-            <div className="btn">Github - Confidential</div>
+            <div className="btn">Confidential</div>
             <a target="_blank" href="https://apps.apple.com/dk/app/drivepilot/id1104125163?platform=iphone" className="btn btn-primary">
               Live Demo
             </a>
@@ -75,7 +75,7 @@ function Portfolio() {
           </div>
           <h3>Stibo MeetUp</h3>
           <div className="portfolio__item-cta">
-            <div className="btn">Github - Confidential</div>
+            <div className="btn">Confidential</div>
             <a target="_blank" href="https://www.stibomeetup.com/" className="btn btn-primary">
               Live Demo
             </a>

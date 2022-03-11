@@ -2,8 +2,12 @@ import { FaFacebookF, FaGithub } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { BsLinkedin } from "react-icons/bs";
 import "./footer.css";
+import { useAppDispatch } from "../../store/hooks";
+import { setActive } from "../../store/reducers/navigationSlice";
 
 function Footer() {
+  const dispatch = useAppDispatch();
+
   return (
     <footer>
       <a href="#" className="footer__logo">
@@ -11,19 +15,29 @@ function Footer() {
       </a>
       <ul className="permalinks">
         <li>
-          <a href="#">Home</a>
+          <a href="#" onClick={() => dispatch(setActive("#"))}>
+            Home
+          </a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about" onClick={() => dispatch(setActive("#about"))}>
+            About
+          </a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#experience" onClick={() => dispatch(setActive("#experience"))}>
+            Experience
+          </a>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#portfolio" onClick={() => dispatch(setActive("#portfolio"))}>
+            Portfolio
+          </a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact" onClick={() => dispatch(setActive("#contact"))}>
+            Contact
+          </a>
         </li>
       </ul>
 

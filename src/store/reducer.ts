@@ -1,8 +1,8 @@
 import { combineReducers } from "@reduxjs/toolkit";
-import authSlice from "./reducers/authSlice";
+import navigationSlice from "./reducers/navigationSlice";
 
 const reducers = combineReducers({
-  auth: authSlice,
+  nav: navigationSlice,
 });
 
 export default reducers;

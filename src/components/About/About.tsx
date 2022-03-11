@@ -3,8 +3,12 @@ import { FaAward } from "react-icons/fa";
 import { GiGraduateCap } from "react-icons/gi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import "./about.css";
+import { useAppDispatch } from "../../store/hooks";
+import { setActive } from "../../store/reducers/navigationSlice";
 
 function About() {
+  const dispatch = useAppDispatch();
+
   return (
     <section id="about">
       <h5>Get to know</h5>
@@ -43,7 +47,7 @@ function About() {
             highlight their core competencies, and further their success.
           </p>
 
-          <a href="#contact" className="btn btn-primary">
+          <a href="#contact" onClick={() => dispatch(setActive("#contact"))} className="btn btn-primary">
             Let's Talk
           </a>
         </div>
