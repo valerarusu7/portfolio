@@ -10,12 +10,9 @@
   border-radius: 32px;
   border: 1px solid transparent;
   transition: var(--transition);
-}
-
-.experience__container > div:hover {
-  background: transparent;
-  border-color: var(--color-primary-variant);
-  cursor: default;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .experience__container > div h3 {

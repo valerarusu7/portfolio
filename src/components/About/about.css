@@ -37,11 +37,9 @@
   padding: 32px;
   text-align: center;
   transition: var(--transition);
-}
-
-.about__card:hover {
-  background: transparent;
-  border-color: var(--color-primary-variant);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   cursor: default;
 }
 
