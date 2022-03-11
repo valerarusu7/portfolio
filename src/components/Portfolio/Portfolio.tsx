@@ -48,15 +48,6 @@ function Portfolio() {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={PORTFOLIO4} alt="PORTFOLIO4" />
-          </div>
-          <h3>Drivepilot</h3>
-          <div className="portfolio__item-cta">
-            <div className="btn">Github - Confidential</div>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
             <img src={PORTFOLIO6} alt="PORTFOLIO6" />
           </div>
           <h3>Museum Monitoring System</h3>
@@ -66,7 +57,18 @@ function Portfolio() {
             </a>
           </div>
         </article>
-
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={PORTFOLIO4} alt="PORTFOLIO4" />
+          </div>
+          <h3>Drivepilot</h3>
+          <div className="portfolio__item-cta">
+            <div className="btn">Github - Confidential</div>
+            <a target="_blank" href="https://apps.apple.com/dk/app/drivepilot/id1104125163?platform=iphone" className="btn btn-primary">
+              Live Demo
+            </a>
+          </div>
+        </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={PORTFOLIO5} alt="PORTFOLIO5" />
