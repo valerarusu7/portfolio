@@ -6,7 +6,7 @@ function HeaderButtons() {
       <a className="btn" href={CV} download="CV - Valeriu Rusu">
         Download CV
       </a>
-      <a className="btn btn-primary" href="">
+      <a className="btn btn-primary" href="#contact">
         Let's Talk
       </a>
     </div>
