@@ -19,7 +19,7 @@ function Portfolio() {
           </div>
           <h3>Star Wars Game</h3>
           <div className="portfolio__item-cta">
-            <a target="_blank" href="github project" className="btn">
+            <a target="_blank" href="https://github.com/valerarusu7/StarWars-game-client" className="btn">
               Github
             </a>
           </div>
